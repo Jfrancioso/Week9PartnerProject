@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fred's Frozen Pops Form</title>
+    <link rel="stylesheet" href="styles.css" /> 
+</head>
+<body>
+    <header>
+        <img src="images/blue-pop.png" alt="Header Image">
+        <h1>Fred's Frozen Pops</h1>
+    </header>
+    <nav>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1></h1>
+        
+    </header>
+        <main>
+            <form action="/api/submit" method="POST">
+                <h2>Contact Us</h2>
+            <p></p>
+
+                <label for="name">Name:</label>
+                <input name="name" type="text" id="name" required />
+
+                <label for="how-hear">How did you hear of us?</label>
+                <select id="" name="">
+                 <option value="Pops Monthly">Pops Monthly</option>
+                <option value="Word of Mouth">Word of Mouth</option>
+                <option value="Internet">Internet</option>
+                <option value="Radio">Radio</option>
+            </select>
+
+                <label for="favorite-color">What color is your favorite pop?</label>
+                <input name="favorite-color" type="color" id="favorite-color" />
+
+                <label for="comments">Please let us know any comments you have:</label>
+                <input name="comments" type="text" id="comments" />
+
+                <label for="confirmation">Confirm Data Correct</label>
+                <input name="confirmation" type="checkbox" id="confirmation" /> 
+
+                <input type="submit" />
+
+            </form>
+        </main>
+
+    </body>
+
+</html>
